@@ -1,0 +1,41 @@
+body{
+    min-height: 80vh;
+    display: flex;
+    border: 20px solid greenyellow;
+    justify-content: right;
+    /* align-items: center; */
+    
+    gap: 20px;
+    
+
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    background-color: #001f73;
+    font-size: 20pt;
+    color: white;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+#een{
+    background-color: red;
+    margin-right: auto;
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    height: 200px;
+    border: 3 px blueviolet solid;
+    margin: 20px 50px;
+}
